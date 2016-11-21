@@ -276,7 +276,7 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
         display: block;
         text-decoration: none;
         font-family: 'Uncial Antiqua';
-        padding: 20px 20px;
+        padding: 21px 20px;
         text-shadow: -1px 1px #000000;
 	}
 	#secondarymenu a:hover{
@@ -297,7 +297,7 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 		display:block;
 		text-decoration:none;
 		font-family:'Uncial Antiqua';
-		padding:20px 20px;
+		padding:21px 20px;
         text-shadow: -1px 1px #000000;
 	}
 	#mainmenu li {
@@ -538,4 +538,17 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 		width:70%;
 	
 	}
+}
+
+
+
+/*	-==========================- OVERWRITE PLUGIN STYLES -==========================-  */
+
+div.post-body a img.featured_image {
+	padding: 2px;
+}
+
+iframe {
+	-webkit-filter: invert(1);
+	filter: invert(1);
 }
