@@ -545,7 +545,8 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 /*	-==========================- OVERWRITE PLUGIN STYLES -==========================-  */
 
 div.post-body a img.featured_image {
-	padding: 2px;
+	padding: 0px;
+	background: #000;
 }
 
 iframe {
