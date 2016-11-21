@@ -166,17 +166,15 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
-    background: url('images/fantasy/footer.jpg') no-repeat;
-    width:  1300px;
-    height: 540px;
+    background: #000;
+    width: 100%;
+    height: 50px;
     margin: 0 auto;
 }
 #footer-bottom {
-    position: relative;
-    width: 450px;
-    top: 470px;
-    left: 150px;
-    vertical-align: bottom;
+    height: 50px;
+    top: 0px;
+    left: 0px;
 }
 #footer .container {
 
@@ -227,12 +225,8 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 	#content .container {
 	}
     #title-block {
-        position: relative;
-        left: 600px;
-        top: -153px;
-        width: 172px;
         height: 0px;
-        z-index:999;
+        visibility: collapse;
     }
 	#logo {
 		position:absolute;

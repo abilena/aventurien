@@ -83,9 +83,9 @@ echo '<!DOCTYPE html>'."\r\n";
 		
 		<div id='secondarymenu-container'>
             <div id='secondarymenu-inner'>
-			<div id="logo">
+			<!-- <div id="logo">
 				<?php $SMTheme->block_logo();?>
-			</div>
+			</div> -->
 			
 			<div class="menusearch" title="">
 				<?php get_search_form(); ?>
