@@ -198,7 +198,7 @@ body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus{
 	line-height:46px;
 }
 .content-r #content .widget .caption h3{
-	background:url(images/widget-r.png) left top no-repeat;
+	/* background:url(images/widget-r.png) left top no-repeat; */
 }
 
 .content-l #content .widget .caption h3{
@@ -552,4 +552,19 @@ div.post-body a img.featured_image {
 iframe {
 	-webkit-filter: invert(1);
 	filter: invert(1);
+}
+
+.link_with_icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.link_with_icon span {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.widget_wlwi {
+    margin-left: 100px;
 }
