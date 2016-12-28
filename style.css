@@ -554,17 +554,40 @@ iframe {
 	filter: invert(1);
 }
 
+div .sp-wrap {
+	border: 1px solid #333333;
+	margin-bottom: -1px;
+}
+
+div .sp-wrap-default {
+	background: none;
+}
+
+div .sp-wrap-default .sp-body {
+	background: none;
+	border-top: 1px solid #333333;
+}
+
+div .sp-wrap-default .sp-head {
+	color: unset;
+}
+
 .link_with_icon img {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .link_with_icon span {
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 .widget_wlwi {
-    margin-left: 100px;
+	margin-left: 100px;
+}
+
+.content-r #content .widget_wlwi .caption h3 {
+	background: none;
 }
