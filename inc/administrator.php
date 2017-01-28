@@ -32,7 +32,7 @@ class AdminPage {
 	  function loadHeadTemplate()
 	{	
 		if ($_GET['page']=='OptionsPage')$_GET['page']='general';
-		if (is_array($this->PageOptions[$_GET['page']])) {
+		if (array_key_exists($_GET['page'],$this->PageOptions) && is_array($this->PageOptions[$_GET['page']])) {
 		?>
 		<link rel='stylesheet' href='<?php echo get_template_directory_uri()?>/inc/css/admin.css' type='text/css' media='all' />
 		<?php } ?>
