@@ -94,15 +94,15 @@ a.post_ttl {
 }
 #commentform #submit, input.readmore, a.readmore {
 	background:#000;
-	border:1px solid #a0773d;
-	color:#ad711f;
+	border:1px solid #fff;
+	color:#fff;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	font-family:'Merienda One';
 }
-#commentform #submit, input.readmore, a.readmore:hover {
-	background:#ad711f;
+#commentform:hover #submit:hover, input.readmore:hover, a.readmore:hover {
+	background:#fff;
 	color:#000;
 }
 .featured_image {
