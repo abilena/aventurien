@@ -74,7 +74,7 @@ img { border-width:0px; }
 .articles .post-caption h2,.articles .post-caption h1 { padding:14px 0; margin:0; }
 .articles .post-caption p img{ margin:0px 5px; margin-bottom:-4px; }
 .featured_image{ padding:5px; margin-right:10px; margin-bottom:10px; border:1px solid #dadada; background:#fff; }
-.articles ul { padding:10px 40px; list-style:disc; }
+.articles ul { padding:10px 0px; list-style:disc; }
 .alignleft {float:left; margin-right: 20px; }
 .aligncenter { margin:0 auto; display:block; margin-bottom: 10px; }
 .alignright { float:right; margin-left: 20px; }
