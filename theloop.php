@@ -29,7 +29,7 @@
 			
 		</div>
 		<div class='post-body'>
-			<?php
+			<?php /*
                 if(has_post_thumbnail())  {
                     ?><?php if (!is_single()) { ?><a href="<?php the_permalink(); ?>" title="<?php printf( $SMTheme->_( 'permalink' ), the_title_attribute( 'echo=0' ) ); ?>"><?php the_post_thumbnail(
 						'post-thumbnail',
@@ -40,7 +40,7 @@
                         array("class" => $SMTheme->get( 'layout','imgpos' ) . " featured_image")
                     ); ?>
 					<?php }
-                }
+                } */
 				?>
 				
 				<?php
