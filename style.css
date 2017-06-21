@@ -591,3 +591,11 @@ div .sp-wrap-default .sp-head {
 .content-r #content .widget_wlwi .caption h3 {
 	background: none;
 }
+
+.post_thumb:before {
+	content: '';
+	position: absolute;
+	width: 90px;
+	height: 120px;
+	background-image: url('images/thumbnail-frame.png');
+}
