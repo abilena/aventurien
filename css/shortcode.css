@@ -209,7 +209,7 @@ border-radius: 4px;
 	
 	blockquote {
 		font-style:italic !important;
-		width:200px !important;
+		max-width:260px !important;
 		float:left !important;
 		clear:left;
 	}
