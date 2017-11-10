@@ -599,3 +599,11 @@ div .sp-wrap-default .sp-head {
 	height: 120px;
 	background-image: url('images/thumbnail-frame.png');
 }
+
+.display-posts-listing .listing-item {
+    display: block;
+}
+
+.display-posts-listing .listing-item .title {
+    display: none;
+}
