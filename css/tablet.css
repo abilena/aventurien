@@ -14,8 +14,8 @@ img { max-width:100%; }
 
 
 /*	-==========================- SIDEBARS -==========================-  */
-.sidebar.right { position:relative; float:right; margin-left:-1px; overflow:hidden; padding-bottom:20px; height:100%; width:272px; }
-.sidebar.left { position:relative; float:right; margin-left:-1px; overflow:hidden; padding-bottom:20px; height:100%; width:272px; }
+.sidebar.right { display: none; }
+.sidebar.left { display: none; }
 .sidebar ul.children { margin-left:7px; }
 .sidebar ul.children li { font-size:90%; }
 .sidebar ul.children li:before { content: '- '; color:#8e3949; }
