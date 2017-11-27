@@ -92,15 +92,15 @@ echo '<!DOCTYPE html>'."\r\n";
 			</div>
 			
 			<div id='menu-box'>
-			<div id='secondarymenu'>
+			<!--<div id='secondarymenu'>
 				<?php wp_nav_menu('depth=0&theme_location=sec-menu&container_class=menu-topmenu-container&menu_class=menus menu-topmenu&fallback_cb=block_sec_menu');	?>
-			</div>
+			</div>-->
 			</div>
 			</div>
 		</div>
 		
 		<div id='header-block'>
-		<?php smt_mobile_menu('sec-menu'); ?>
+		<!--<?php smt_mobile_menu('sec-menu'); ?>-->
 		<?php smt_mobile_menu('main-menu'); ?>
 		
 		<div id='mainmenu-container'>

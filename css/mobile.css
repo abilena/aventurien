@@ -16,6 +16,7 @@ img { max-width: 100%;height:auto }
 #content .container .stylebar.left { min-height: 0px; }#content .container .stylebar.right { min-height: 0px; }
 /*	-==========================- MENUS -==========================-  */
 #secondarymenu, #mainmenu-container {display:none;}
+#secondarymenu-inner { padding-top: 160px; }
 .mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;}
 
 /*	-==========================- SLIDER -==========================-  */
@@ -33,7 +34,7 @@ img { max-width: 100%;height:auto }
 
 
 /*  =----------------------------= SEARCH =----------------------------=  */
-.menusearch { display:block; float:none; width:100%; padding:10px 0; }
+.menusearch { display:block; float:none; width:100%; padding:0; }
 .searchtxt { display:block; width:80%;}
 .searchbtn { width:15% !important;}
 .searchform { margin:10px 0; }

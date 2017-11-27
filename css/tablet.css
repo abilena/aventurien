@@ -1,5 +1,5 @@
 /*	-==========================- GENERAL -==========================-  */
-.container { width: 100%; margin: 0px auto; padding:0 !important; }
+.container { width: 98%; margin: 0px auto; padding:0 1% !important; }
 #content .container {  width:100%; padding:0 !important;}
 
 img { max-width:100%; }
@@ -25,11 +25,11 @@ img { max-width:100%; }
 /*	-==========================- MENUS -==========================-  */
 #secondarymenu, #mainmenu-container #mainmenu {display:none;}
 .mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;}
-.menusearch{ height:25px; position: absolute; right: 15px; top: 30px; }
+.menusearch{ height:25px; position: absolute; right: 0px; top: 170px; }
 .searchform { padding: 0; margin: 0; }
 #s { padding: 0 10px; margin: 0; }
 #logo h1, #logo img, #logo { height:85px; line-height:85px;padding:0;margin:0; }
-#secondarymenu-container { height: 85px ; }
+#secondarymenu-container { height: 197px ; }
 
 /*	-==========================- FOOTER -==========================-  */
 .footer-widgets { padding-left:3%; }
