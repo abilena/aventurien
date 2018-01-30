@@ -136,7 +136,7 @@ class AdminPage {
 	
 	function load_tabs_menu($type=0) {
 		
-		if (is_array($this->PageOptions)&&count($this->PageOptions>0)) {
+		if (is_array($this->PageOptions)&&(count($this->PageOptions)>0)) {
 			
 			foreach ($this->PageOptions as $href=>$menu) {
 				if ($type) {
@@ -152,7 +152,7 @@ class AdminPage {
 	
 	function load_tabs_content($type=0) {
 		
-		if (is_array($this->PageOptions)&&count($this->PageOptions>0)) {
+		if (is_array($this->PageOptions)&&(count($this->PageOptions)>0)) {
 			foreach ($this->PageOptions as $href=>$x) {
 				echo '<li id="'.$href.'" '.((($_GET['page']==$href)||($_GET['page']=='OptionsPage'&&$href=='general'))?" style='display:block' class='content-li active'":' class="content-li"').'><h2>'.$x['name'].'</h2><div class="adm-form">';
 				if ($href!='activate') echo '<form id="form_'.$href.'" method="POST">';

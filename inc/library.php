@@ -7,7 +7,7 @@
 		var $layout;
 		var $sidebars_type;
 		
-		function SMTheme() {
+		public function __construct() {
 
 			if ( !is_admin() ) {
 				function smt_register_scripts() {
