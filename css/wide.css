@@ -35,7 +35,7 @@
 #mainmenu li, #secondarymenu li { position:relative; float:left; }
 
 /*	-==========================- FOOTER -==========================-  */
-.footer-widgets { padding-left:3%; }
+.footer-widgets { padding-left:0%; }
 .widgetf { float:left; width:33%; }
 .footer_txt { padding-left:50px; }
 #footer {

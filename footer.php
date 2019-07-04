@@ -13,33 +13,6 @@ if ($SMTheme->get( 'social', 'showsocial')) {
 	
     <div id='footer-bottom'>
 		<div class='container clearfix'>
-		<?php if ($SMTheme->get("layout","footerwidgets")) { ?>
-		<div class='footer-widgets-container'><div class='footer-widgets'>
-			<div class='widgetf'>
-				<?php if ( !function_exists("dynamic_sidebar") || !dynamic_sidebar("footer_1") ) : ?>
-				<?php
-					$SMTheme->go_func("footer_1");
-				?>
-				<?php endif; ?>
-			</div>
-			
-			<div class='widgetf'>
-				<?php if ( !function_exists("dynamic_sidebar") || !dynamic_sidebar("footer_2") ) : ?>
-				<?php
-					$SMTheme->go_func("footer_2");
-				?>
-				<?php endif; ?>
-			</div>
-			
-			<div class='widgetf widgetf_last'>
-				<?php if ( !function_exists("dynamic_sidebar") || !dynamic_sidebar("footer_3") ) : ?>
-				<?php
-					$SMTheme->go_func("footer_3");
-				?>
-				<?php endif; ?>
-			</div>
-		</div></div>
-		<?php } ?>
 		<div class='footer_txt'>
 			<?php
                     if ($SMTheme->get( "layout","footertext" )) {

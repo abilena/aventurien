@@ -192,6 +192,7 @@ a.readmore { float:right; text-decoration:none; padding:4px 15px; text-align:cen
 		
 /*	-==========================- FOOTER -==========================-  */
 .footer-widgets { margin:0 auto; overflow:hidden; }
+.footer-widgets .widget { padding:0px; }
 .footer_txt { padding:30px 0; }
 #footer .container { padding-bottom:10px !important; }
 #footer {
