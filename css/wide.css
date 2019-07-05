@@ -37,6 +37,7 @@
 /*	-==========================- FOOTER -==========================-  */
 .footer-widgets { padding-left:0%; }
 .widgetf { float:left; width:33%; }
+.footer-widgets .widgetf { width:auto; }
 .footer_txt { padding-left:50px; }
 #footer {
     background: url('../images/fantasy/footer.jpg') no-repeat;

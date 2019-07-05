@@ -60,6 +60,16 @@ if ( function_exists('register_sidebar') ) {
         'after_title' => '</h3></div>'
     ));
 	
+	$$sidebar='header';
+	register_sidebar(array(
+        'name' => 'Header',
+        'id' => 'header',
+        'description' => 'The primary header widget area',
+        'before_widget' => '<div id="%1$s" class="widget %2$s"><div class="inner">',
+        'after_widget' => '</div></div>',
+        'before_title' => '<div class="caption"><h3>',
+        'after_title' => '</h3></div>'
+    ));
 	
 	$$sidebar='footer';
 	register_sidebar(array(

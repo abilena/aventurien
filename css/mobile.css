@@ -40,6 +40,12 @@ img { max-width: 100%;height:auto }
 .searchform { margin:10px 0; }
 #logo { text-align:center; }
 
+/*	-==========================- HEADER -==========================-  */
+.header-widgets-container { position: relative; left: -5px; top: -234px; width: 180px; height: 0px; z-index: 999; visibility: visible; }
+.header-widgets { margin:0 auto; overflow:hidden; }
+.header-widgets .widgetf { width: auto; border-top: none; }
+.header-widgets .widget { padding:0px; }
+
 /*	-==========================- FOOTER -==========================-  */
 .widgetf { float:left; width:100%; }
 #footer {

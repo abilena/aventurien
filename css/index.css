@@ -23,6 +23,18 @@ img { border-width:0px; }
 .menusearch {
 	float:right;
 }
+.header-widgets-container { position: relative; left: 472px; top: -64px; width: 180px; height: 0px; z-index: 999; visibility: visible; }
+.header-widgets { margin:0 auto; overflow:hidden; }
+.header-widgets .widgetf { width: auto; }
+.header-widgets .widget { padding:0px; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button { margin:0 0 0 5px!important; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button > .shared-counts-icon-label > .shared-counts-icon { line-height:40px; background-image: url("../images/panel_32x32.png"); }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button.facebook_likes > .shared-counts-icon-label > .shared-counts-icon > svg { display:none; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button.facebook_likes > .shared-counts-icon-label > .shared-counts-icon::after { content: "\f529"; font: 300 16px/1 dashicons; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button.facebook_likes > .shared-counts-icon-label > .shared-counts-icon { color: #999; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button.facebook_likes > .shared-counts-icon-label > .shared-counts-icon:hover { color: #fff; }
+.header-widgets .shared-counts-wrap.style-icon > .shared-counts-button.included_total { font-size: 11px; line-height: 18px; padding-left: 2px; color: #999; text-shadow: 1px 1px 2px #000; }
+
 /*	-==========================- SLIDER -==========================-  */
 .slider { position:relative;margin:0px auto; }
 .fp-thumbnail { overflow:hidden;	text-align:center; }

@@ -213,6 +213,9 @@
 						'aligncenter'=>'Center'
 					), 'hint'=>'Featured images position'
 				),
+				'headerwidgets'=>array(
+					'type'=>'check','name'=>'headerwidgets','value'=>'1','ttl'=>'Show header widgets?'
+				),
 				'footerwidgets'=>array(
 					'type'=>'check','name'=>'footerwidgets','value'=>'1','ttl'=>'Show footer widgets?'
 				),

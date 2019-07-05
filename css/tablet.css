@@ -31,6 +31,12 @@ img { max-width:100%; }
 #logo h1, #logo img, #logo { height:85px; line-height:85px;padding:0;margin:0; }
 #secondarymenu-container { height: 197px ; }
 
+/*	-==========================- HEADER -==========================-  */
+.header-widgets-container { position: relative; left: -5px; top: -234px; width: 180px; height: 0px; z-index: 999; visibility: visible; }
+.header-widgets { margin:0 auto; overflow:hidden; }
+.header-widgets .widgetf { width: auto; }
+.header-widgets .widget { padding:0px; }
+
 /*	-==========================- FOOTER -==========================-  */
 .footer-widgets { padding-left:3%; }
 .widgetf { float:left; width:33%; }

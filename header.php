@@ -120,6 +120,19 @@ echo '<!DOCTYPE html>'."\r\n";
                 <li class="current_page_item"><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></li>
 			</ul>
         </div>
+		
+		<?php if ($SMTheme->get("layout","headerwidgets")) { ?>
+		<div class='header-widgets-container'><div class='header-widgets'>
+			<div class='widgetf'>
+				<?php if ( !function_exists("dynamic_sidebar") || !dynamic_sidebar("header") ) : ?>
+				<?php
+					$SMTheme->go_func("header");
+				?>
+				<?php endif; ?>
+			</div>
+		</div></div>
+		<?php } ?>
+		
 		</div>
 		
 	</div>
