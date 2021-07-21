@@ -23,8 +23,12 @@ img { max-width:100%; }
 
 
 /*	-==========================- MENUS -==========================-  */
-#secondarymenu, #mainmenu-container #mainmenu {display:none;}
-.mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;}
+/* #secondarymenu, #mainmenu-container #mainmenu {display:none;} */
+#secondarymenu {display:none;}
+#secondarymenu-inner { padding-top: 160px; }
+/* .mobile-menu {background: none repeat scroll 0 0 #EDEDED;border: medium none;border-radius: 5px 5px 5px 5px;display: block;margin: 10px 0;padding: 5px;width: 100%;} */
+#mainmenu li, #secondarymenu li { display: inline-block; margin: 3px; }
+#mainmenu { padding: 0 20px; margin-top: 10px; }
 .menusearch{ height:25px; position: absolute; right: 0px; top: 170px; }
 .searchform { padding: 0; margin: 0; }
 #s { padding: 0 10px; margin: 0; }
